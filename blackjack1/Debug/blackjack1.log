@@ -1,0 +1,22 @@
+﻿Build started 4/24/2014 6:20:17 PM.
+     1>Project "F:\blackjack1-Final\blackjack1\blackjack1.vcxproj" on node 2 (Build target(s)).
+       Project file contains ToolsVersion="12.0". This toolset is unknown or missing. You may be able to resolve this by installing the appropriate .NET Framework for this toolset. Treating the project as if it had ToolsVersion="4.0".
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Table.cpp
+         Table.cpp
+     1>f:\blackjack1-final\blackjack1\table.cpp(108): warning C4018: '<' : signed/unsigned mismatch
+       Link:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\blackjack1-Final\Debug\blackjack1.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\blackjack1-Final\Debug\blackjack1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\blackjack1-Final\Debug\blackjack1.lib" /MACHINE:X86 Debug\card.obj
+         Debug\Dealer.obj
+         Debug\Deck.obj
+         Debug\Game.obj
+         Debug\GenericPlayer.obj
+         Debug\Player.obj
+         Debug\source.obj
+         Debug\Table.obj
+         blackjack1.vcxproj -> F:\blackjack1-Final\Debug\blackjack1.exe
+     1>Done Building Project "F:\blackjack1-Final\blackjack1\blackjack1.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.70
